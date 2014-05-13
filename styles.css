@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+.pure-g-r [class *="pure-u"] {
+    font-family: 'Open Sans', sans-serif;
+}
+.page {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+.x-centered {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+@media screen and (orientation: portrait) {
+    #intro-video {
+        width: 100%;
+        height: 56%;
+    }
+}
+@media screen and (orientation: landscape) {
+    #intro-video {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+}
+.arrow-down {
+    z-index: 10000;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid rgba(100, 100, 100, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+}
+#arrow-container {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+}
+#logo-picture {
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 720px) {
+    .half-page {
+        display: block;
+        width: 100%;
+    }
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .half-page {
+        display: inline-block;
+        width: 50%;
+    }
+}
+#deroulement {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h3 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+.info-block {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.artist-block {
+
+}
+.artist-block h3 {
+    width: 100%;
+    text-align: center;
+}
+.offseted {
+    float: right;
+}
